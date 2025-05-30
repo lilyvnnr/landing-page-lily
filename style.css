@@ -1,0 +1,40 @@
+body {
+    background-color: #fae9f1;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(195, 165, 165);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(15, 5, 5, 0.2);
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4f181c;
+    color: rgb(238, 200, 200);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #681717;
+}
+
